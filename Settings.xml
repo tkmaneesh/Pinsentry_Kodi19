@@ -1,0 +1,1213 @@
+<?xml version="1.0" ?>
+<settings version="1">
+	<section id="script.pinsentry">
+		<category id="setup" label="32002" help="">
+			<group id="1">
+				<setting id="pinValue" type="string" label="Pin Value" help="">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>Pin Value</heading>
+						<hidden>true</hidden>
+					</control>
+				</setting>
+				<setting id="pinValue2" type="string" label="Pin Value 2" help="">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>Pin Value 2</heading>
+						<hidden>true</hidden>
+					</control>
+				</setting>
+				<setting id="pinValue3" type="string" label="Pin Value 3" help="">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>Pin Value 3</heading>
+						<hidden>true</hidden>
+					</control>
+				</setting>
+				<setting id="pinValue4" type="string" label="Pin Value 4" help="">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>Pin Value 4</heading>
+						<hidden>true</hidden>
+					</control>
+				</setting>
+				<setting id="pinValue5" type="string" label="Pin Value 5" help="">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>Pin Value 5</heading>
+						<hidden>true</hidden>
+					</control>
+				</setting>
+				<setting id="pinValueSet" type="boolean" label="Pin Value Set" help="">
+					<level>0</level>
+					<default>false</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="toggle"/>
+				</setting>
+				<setting id="pinWarning" type="string" label="32008" help="">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="enable">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+						<dependency type="visible">
+							<condition operator="is" setting="pinValueSet">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>32008</heading>
+					</control>
+				</setting>
+				<setting id="pinLength" type="integer" label="32006" help="">
+					<level>0</level>
+					<default>4</default>
+					<constraints>
+						<minimum>1</minimum>
+						<step>1</step>
+						<maximum>10</maximum>
+					</constraints>
+					<control type="slider" format="integer">
+						<popup>false</popup>
+					</control>
+				</setting>
+				<setting id="directionKeysAsPin" type="boolean" label="32023" help="">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+				</setting>
+				<setting id="invalidPinNotificationType" type="integer" label="32009" help="">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="32010">0</option>
+							<option label="32011">1</option>
+							<option label="32012">2</option>
+						</options>
+					</constraints>
+					<control type="spinner" format="string"/>
+				</setting>
+				<setting id="numberOfLevels" type="integer" label="32020" help="">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="1">0</option>
+							<option label="2">1</option>
+							<option label="3">2</option>
+							<option label="4">3</option>
+							<option label="5">4</option>
+						</options>
+					</constraints>
+					<control type="spinner" format="string"/>
+				</setting>
+				<setting id="showSecurityInfo" type="boolean" label="32022" help="" parent="numberOfLevels">
+					<level>0</level>
+					<default>true</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="!is" setting="numberOfLevels">0</condition>
+						</dependency>
+					</dependencies>
+					<control type="toggle"/>
+				</setting>
+			</group>
+			<group id="2" label="32005">
+				<setting id="eyzrasuhlibzgfradzaaofcsxrjuqlst" type="action" label="32007" help="">
+					<level>0</level>
+					<data>RunScript(C:\Users\admin\AppData\Roaming\Kodi\addons\script.pinsentry\/setpin.py)</data>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<control type="button" format="action">
+						<close>true</close>
+					</control>
+				</setting>
+				<setting id="paqeaqmitqpnlutzmmcvepzqspyezibs" type="action" label="32114" help="">
+					<level>0</level>
+					<data>RunAddon(script.pinsentry)</data>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<control type="button" format="action">
+						<close>true</close>
+					</control>
+				</setting>
+				<setting id="utmzvvxhsvkmzegjoqvmuvyzxcszqcrz" type="action" label="32113" help="">
+					<level>0</level>
+					<data>RunScript(C:\Users\admin\AppData\Roaming\Kodi\addons\script.pinsentry\/cleanup.py)</data>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<control type="button" format="action"/>
+				</setting>
+			</group>
+		</category>
+		<category id="activity" label="32125" help="">
+			<group id="1">
+				<setting id="activityVideoPlaying" type="boolean" label="32126" help="">
+					<level>0</level>
+					<default>true</default>
+					<control type="toggle"/>
+				</setting>
+				<setting id="activityTvChannels" type="boolean" label="32215" help="">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+				</setting>
+				<setting id="activityNavigation" type="boolean" label="32127" help="">
+					<level>0</level>
+					<default>true</default>
+					<control type="toggle"/>
+				</setting>
+				<setting id="activityPlugins" type="boolean" label="32128" help="">
+					<level>0</level>
+					<default>true</default>
+					<control type="toggle"/>
+				</setting>
+				<setting id="activitySystemSettings" type="boolean" label="32135" help="">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+				</setting>
+				<setting id="activityRepositories" type="boolean" label="32136" help="">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+				</setting>
+				<setting id="activityFileSource" type="boolean" label="32204" help="">
+					<level>0</level>
+					<default>true</default>
+					<control type="toggle"/>
+				</setting>
+				<setting id="activityFileSourceNavigationOnly" type="boolean" label="32111" help="" parent="activityFileSource">
+					<level>0</level>
+					<default>false</default>
+					<dependencies>
+						<dependency type="enable">
+							<condition operator="is" setting="activityNavigation">true</condition>
+						</dependency>
+						<dependency type="visible">
+							<condition operator="is" setting="activityFileSource">true</condition>
+						</dependency>
+					</dependencies>
+					<control type="toggle"/>
+				</setting>
+				<setting id="defaultMoviesWithoutClassification" type="integer" label="32017" help="">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="32013">0</option>
+							<option label="32014">1</option>
+						</options>
+					</constraints>
+					<control type="spinner" format="string"/>
+				</setting>
+				<setting id="defaultTvShowsWithoutClassification" type="integer" label="32018" help="">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="32013">0</option>
+							<option label="32014">1</option>
+						</options>
+					</constraints>
+					<control type="spinner" format="string"/>
+				</setting>
+			</group>
+		</category>
+		<category id="advanced" label="32115" help="">
+			<group id="1">
+				<setting id="pinCachingStatus" type="integer" label="32119" help="">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="32013">0</option>
+							<option label="32014">1</option>
+							<option label="32015">2</option>
+						</options>
+					</constraints>
+					<control type="spinner" format="string"/>
+				</setting>
+				<setting id="pinCachingDuration" type="integer" label="32016" help="" parent="pinCachingStatus">
+					<level>0</level>
+					<default>5</default>
+					<constraints>
+						<minimum>1</minimum>
+						<step>1</step>
+						<maximum>120</maximum>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="pinCachingStatus">2</condition>
+						</dependency>
+					</dependencies>
+					<control type="slider" format="integer">
+						<popup>false</popup>
+					</control>
+				</setting>
+				<setting id="background" type="integer" label="32120" help="">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="32012">0</option>
+							<option label="32121">1</option>
+							<option label="32122">2</option>
+							<option label="32123">3</option>
+						</options>
+					</constraints>
+					<control type="spinner" format="string"/>
+				</setting>
+				<setting id="backgroundImage" type="path" label="32124" help="" parent="background">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<writable>false</writable>
+						<masking>image</masking>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="background">3</condition>
+						</dependency>
+					</dependencies>
+					<control type="button" format="image">
+						<heading>32124</heading>
+					</control>
+				</setting>
+				<setting id="timeRestrictionEnabled" type="boolean" label="32116" help="">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+				</setting>
+				<setting id="startTime" type="time" label="32117" help="" parent="timeRestrictionEnabled">
+					<level>0</level>
+					<default>06:00</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="timeRestrictionEnabled">true</condition>
+						</dependency>
+					</dependencies>
+					<control type="button" format="time">
+						<heading>32117</heading>
+					</control>
+				</setting>
+				<setting id="endTime" type="time" label="32118" help="" parent="timeRestrictionEnabled">
+					<level>0</level>
+					<default>20:00</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="timeRestrictionEnabled">true</condition>
+						</dependency>
+					</dependencies>
+					<control type="button" format="time">
+						<heading>32118</heading>
+					</control>
+				</setting>
+				<setting id="highlightClassificationUnprotectedVideos" type="boolean" label="32019" help="">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+				</setting>
+				<setting id="promptForPinOnStartup" type="boolean" label="32037" help="">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+				</setting>
+				<setting id="pvrSupportsPause" type="boolean" label="32038" help="">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+				</setting>
+			</group>
+			<group id="2" label="32003">
+				<setting id="logEnabled" type="boolean" label="32004" help="">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+				</setting>
+			</group>
+		</category>
+		<category id="time limits" label="32025" help="">
+			<group id="1">
+				<setting id="warnExpiringTime" type="integer" label="32034" help="">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<minimum>0</minimum>
+						<step>1</step>
+						<maximum>15</maximum>
+					</constraints>
+					<control type="slider" format="integer">
+						<popup>false</popup>
+					</control>
+				</setting>
+				<setting id="numberOfLimitedUsers" type="integer" label="32026" help="">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="0">0</option>
+							<option label="1">1</option>
+							<option label="2">2</option>
+							<option label="3">3</option>
+							<option label="4">4</option>
+							<option label="5">5</option>
+						</options>
+					</constraints>
+					<control type="spinner" format="string"/>
+				</setting>
+			</group>
+			<group id="2" label="32027">
+				<setting id="unrestrictedUserPinSet" type="boolean" label="Pin Value Set" help="">
+					<level>0</level>
+					<default>false</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="toggle"/>
+				</setting>
+				<setting id="unrestrictedUserPin" type="string" label="Pin Value" help="">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>Pin Value</heading>
+						<hidden>true</hidden>
+					</control>
+				</setting>
+				<setting id="unrestrictedUserPinWarning" type="string" label="32008" help="" parent="unrestrictedUserPin">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="enable">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+						<dependency type="visible">
+							<and>
+								<condition operator="is" setting="unrestrictedUserPinSet">false</condition>
+								<condition operator="gt" setting="numberOfLimitedUsers">0</condition>
+							</and>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>32008</heading>
+					</control>
+				</setting>
+				<setting id="eevqmshnzrhkiteisgjsmaonlxqxmnkg" type="action" label="32007" help="" parent="unrestrictedUserPin">
+					<level>0</level>
+					<data>RunScript(C:\Users\admin\AppData\Roaming\Kodi\addons\script.pinsentry\/setpin.py,unrestrictedUserPin)</data>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">0</condition>
+						</dependency>
+					</dependencies>
+					<control type="button" format="action">
+						<close>true</close>
+					</control>
+				</setting>
+			</group>
+			<group id="3" label="32028">
+				<setting id="user1PinSet" type="boolean" label="Pin Value Set" help="">
+					<level>0</level>
+					<default>false</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="toggle"/>
+				</setting>
+				<setting id="user1Pin" type="string" label="Pin Value" help="">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>Pin Value</heading>
+						<hidden>true</hidden>
+					</control>
+				</setting>
+				<setting id="user1PinWarning" type="string" label="32008" help="" parent="user1Pin">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="enable">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+						<dependency type="visible">
+							<and>
+								<condition operator="is" setting="user1PinSet">false</condition>
+								<condition operator="gt" setting="numberOfLimitedUsers">0</condition>
+							</and>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>32008</heading>
+					</control>
+				</setting>
+				<setting id="oatvbnstkbaeszqebyimnjqlpufxcjto" type="action" label="32007" help="" parent="user1Pin">
+					<level>0</level>
+					<data>RunScript(C:\Users\admin\AppData\Roaming\Kodi\addons\script.pinsentry\/setpin.py,user1Pin)</data>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">0</condition>
+						</dependency>
+					</dependencies>
+					<control type="button" format="action">
+						<close>true</close>
+					</control>
+				</setting>
+				<setting id="user1PinName" type="string" label="32035" help="" parent="user1Pin">
+					<level>0</level>
+					<default>User 1</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">0</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>32035</heading>
+					</control>
+				</setting>
+				<setting id="user1PinStartTime" type="time" label="32117" help="" parent="user1Pin">
+					<level>0</level>
+					<default>00:00</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">0</condition>
+						</dependency>
+					</dependencies>
+					<control type="button" format="time">
+						<heading>32117</heading>
+					</control>
+				</setting>
+				<setting id="user1PinEndTime" type="time" label="32118" help="" parent="user1Pin">
+					<level>0</level>
+					<default>23:59</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">0</condition>
+						</dependency>
+					</dependencies>
+					<control type="button" format="time">
+						<heading>32118</heading>
+					</control>
+				</setting>
+				<setting id="user1PinViewingLimit" type="integer" label="32033" help="" parent="user1Pin">
+					<level>0</level>
+					<default>60</default>
+					<constraints>
+						<minimum>15</minimum>
+						<step>15</step>
+						<maximum>360</maximum>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">0</condition>
+						</dependency>
+					</dependencies>
+					<control type="slider" format="integer">
+						<popup>false</popup>
+					</control>
+				</setting>
+				<setting id="user1PinLastLimitData" type="string" label="Last time the daily limit used was set" help="">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>Last time the daily limit used was set</heading>
+						<hidden>true</hidden>
+					</control>
+				</setting>
+				<setting id="user1PinLimitUsed" type="string" label="How much of the daily limit has been used" help="">
+					<level>0</level>
+					<default>0</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>How much of the daily limit has been used</heading>
+						<hidden>true</hidden>
+					</control>
+				</setting>
+			</group>
+			<group id="4" label="32029">
+				<setting id="user2PinSet" type="boolean" label="Pin Value Set" help="">
+					<level>0</level>
+					<default>false</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="toggle"/>
+				</setting>
+				<setting id="user2Pin" type="string" label="Pin Value" help="">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>Pin Value</heading>
+						<hidden>true</hidden>
+					</control>
+				</setting>
+				<setting id="user2PinWarning" type="string" label="32008" help="" parent="user2Pin">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="enable">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+						<dependency type="visible">
+							<and>
+								<condition operator="is" setting="user2PinSet">false</condition>
+								<condition operator="gt" setting="numberOfLimitedUsers">1</condition>
+							</and>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>32008</heading>
+					</control>
+				</setting>
+				<setting id="hmmcrmgpndewisnjtyvbfaummhychicp" type="action" label="32007" help="" parent="user2Pin">
+					<level>0</level>
+					<data>RunScript(C:\Users\admin\AppData\Roaming\Kodi\addons\script.pinsentry\/setpin.py,user2Pin)</data>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">1</condition>
+						</dependency>
+					</dependencies>
+					<control type="button" format="action">
+						<close>true</close>
+					</control>
+				</setting>
+				<setting id="user2PinName" type="string" label="32035" help="" parent="user2Pin">
+					<level>0</level>
+					<default>User 2</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">1</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>32035</heading>
+					</control>
+				</setting>
+				<setting id="user2PinStartTime" type="time" label="32117" help="" parent="user2Pin">
+					<level>0</level>
+					<default>00:00</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">1</condition>
+						</dependency>
+					</dependencies>
+					<control type="button" format="time">
+						<heading>32117</heading>
+					</control>
+				</setting>
+				<setting id="user2PinEndTime" type="time" label="32118" help="" parent="user2Pin">
+					<level>0</level>
+					<default>23:59</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">1</condition>
+						</dependency>
+					</dependencies>
+					<control type="button" format="time">
+						<heading>32118</heading>
+					</control>
+				</setting>
+				<setting id="user2PinViewingLimit" type="integer" label="32033" help="" parent="user2Pin">
+					<level>0</level>
+					<default>60</default>
+					<constraints>
+						<minimum>15</minimum>
+						<step>15</step>
+						<maximum>360</maximum>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">1</condition>
+						</dependency>
+					</dependencies>
+					<control type="slider" format="integer">
+						<popup>false</popup>
+					</control>
+				</setting>
+				<setting id="user2PinLastLimitData" type="string" label="Last time the daily limit used was set" help="">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>Last time the daily limit used was set</heading>
+						<hidden>true</hidden>
+					</control>
+				</setting>
+				<setting id="user2PinLimitUsed" type="string" label="How much of the daily limit has been used" help="">
+					<level>0</level>
+					<default>0</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>How much of the daily limit has been used</heading>
+						<hidden>true</hidden>
+					</control>
+				</setting>
+			</group>
+			<group id="5" label="32030">
+				<setting id="user3PinSet" type="boolean" label="Pin Value Set" help="">
+					<level>0</level>
+					<default>false</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="toggle"/>
+				</setting>
+				<setting id="user3Pin" type="string" label="Pin Value" help="">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>Pin Value</heading>
+						<hidden>true</hidden>
+					</control>
+				</setting>
+				<setting id="user3PinWarning" type="string" label="32008" help="" parent="user3Pin">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="enable">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+						<dependency type="visible">
+							<and>
+								<condition operator="is" setting="user3PinSet">false</condition>
+								<condition operator="gt" setting="numberOfLimitedUsers">2</condition>
+							</and>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>32008</heading>
+					</control>
+				</setting>
+				<setting id="xuhwxmiueyodczvfgndhstoioswkjqmo" type="action" label="32007" help="" parent="user3Pin">
+					<level>0</level>
+					<data>RunScript(C:\Users\admin\AppData\Roaming\Kodi\addons\script.pinsentry\/setpin.py,user3Pin)</data>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">2</condition>
+						</dependency>
+					</dependencies>
+					<control type="button" format="action">
+						<close>true</close>
+					</control>
+				</setting>
+				<setting id="user3PinName" type="string" label="32035" help="" parent="user3Pin">
+					<level>0</level>
+					<default>User 3</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">2</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>32035</heading>
+					</control>
+				</setting>
+				<setting id="user3PinStartTime" type="time" label="32117" help="" parent="user3Pin">
+					<level>0</level>
+					<default>00:00</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">2</condition>
+						</dependency>
+					</dependencies>
+					<control type="button" format="time">
+						<heading>32117</heading>
+					</control>
+				</setting>
+				<setting id="user3PinEndTime" type="time" label="32118" help="" parent="user3Pin">
+					<level>0</level>
+					<default>23:59</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">2</condition>
+						</dependency>
+					</dependencies>
+					<control type="button" format="time">
+						<heading>32118</heading>
+					</control>
+				</setting>
+				<setting id="user3PinViewingLimit" type="integer" label="32033" help="" parent="user3Pin">
+					<level>0</level>
+					<default>60</default>
+					<constraints>
+						<minimum>15</minimum>
+						<step>15</step>
+						<maximum>360</maximum>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">2</condition>
+						</dependency>
+					</dependencies>
+					<control type="slider" format="integer">
+						<popup>false</popup>
+					</control>
+				</setting>
+				<setting id="user3PinLastLimitData" type="string" label="Last time the daily limit used was set" help="">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>Last time the daily limit used was set</heading>
+						<hidden>true</hidden>
+					</control>
+				</setting>
+				<setting id="user3PinLimitUsed" type="string" label="How much of the daily limit has been used" help="">
+					<level>0</level>
+					<default>0</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>How much of the daily limit has been used</heading>
+						<hidden>true</hidden>
+					</control>
+				</setting>
+			</group>
+			<group id="6" label="32031">
+				<setting id="user4PinSet" type="boolean" label="Pin Value Set" help="">
+					<level>0</level>
+					<default>false</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="toggle"/>
+				</setting>
+				<setting id="user4Pin" type="string" label="Pin Value" help="">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>Pin Value</heading>
+						<hidden>true</hidden>
+					</control>
+				</setting>
+				<setting id="user4PinWarning" type="string" label="32008" help="" parent="user4Pin">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="enable">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+						<dependency type="visible">
+							<and>
+								<condition operator="is" setting="user4PinSet">false</condition>
+								<condition operator="gt" setting="numberOfLimitedUsers">3</condition>
+							</and>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>32008</heading>
+					</control>
+				</setting>
+				<setting id="pbcexzqdcavuvdkxfaodqkmpoyjbdjex" type="action" label="32007" help="" parent="user4Pin">
+					<level>0</level>
+					<data>RunScript(C:\Users\admin\AppData\Roaming\Kodi\addons\script.pinsentry\/setpin.py,user4Pin)</data>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">3</condition>
+						</dependency>
+					</dependencies>
+					<control type="button" format="action">
+						<close>true</close>
+					</control>
+				</setting>
+				<setting id="user4PinName" type="string" label="32035" help="" parent="user4Pin">
+					<level>0</level>
+					<default>User 4</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">3</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>32035</heading>
+					</control>
+				</setting>
+				<setting id="user4PinStartTime" type="time" label="32117" help="" parent="user4Pin">
+					<level>0</level>
+					<default>00:00</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">3</condition>
+						</dependency>
+					</dependencies>
+					<control type="button" format="time">
+						<heading>32117</heading>
+					</control>
+				</setting>
+				<setting id="user4PinEndTime" type="time" label="32118" help="" parent="user4Pin">
+					<level>0</level>
+					<default>23:59</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">3</condition>
+						</dependency>
+					</dependencies>
+					<control type="button" format="time">
+						<heading>32118</heading>
+					</control>
+				</setting>
+				<setting id="user4PinViewingLimit" type="integer" label="32033" help="" parent="user4Pin">
+					<level>0</level>
+					<default>60</default>
+					<constraints>
+						<minimum>15</minimum>
+						<step>15</step>
+						<maximum>360</maximum>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">3</condition>
+						</dependency>
+					</dependencies>
+					<control type="slider" format="integer">
+						<popup>false</popup>
+					</control>
+				</setting>
+				<setting id="user4PinLastLimitData" type="string" label="Last time the daily limit used was set" help="">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>Last time the daily limit used was set</heading>
+						<hidden>true</hidden>
+					</control>
+				</setting>
+				<setting id="user4PinLimitUsed" type="string" label="How much of the daily limit has been used" help="">
+					<level>0</level>
+					<default>0</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>How much of the daily limit has been used</heading>
+						<hidden>true</hidden>
+					</control>
+				</setting>
+			</group>
+			<group id="7" label="32032">
+				<setting id="user5PinSet" type="boolean" label="Pin Value Set" help="">
+					<level>0</level>
+					<default>false</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="toggle"/>
+				</setting>
+				<setting id="user5Pin" type="string" label="Pin Value" help="">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>Pin Value</heading>
+						<hidden>true</hidden>
+					</control>
+				</setting>
+				<setting id="user5PinWarning" type="string" label="32008" help="" parent="user5Pin">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="enable">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+						<dependency type="visible">
+							<and>
+								<condition operator="is" setting="user5PinSet">false</condition>
+								<condition operator="gt" setting="numberOfLimitedUsers">4</condition>
+							</and>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>32008</heading>
+					</control>
+				</setting>
+				<setting id="uegafoaabnksmzqyhfjexmhvaclxhfpi" type="action" label="32007" help="" parent="user5Pin">
+					<level>0</level>
+					<data>RunScript(C:\Users\admin\AppData\Roaming\Kodi\addons\script.pinsentry\/setpin.py,user5Pin)</data>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">4</condition>
+						</dependency>
+					</dependencies>
+					<control type="button" format="action">
+						<close>true</close>
+					</control>
+				</setting>
+				<setting id="user5PinName" type="string" label="32035" help="" parent="user5Pin">
+					<level>0</level>
+					<default>User 5</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">4</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>32035</heading>
+					</control>
+				</setting>
+				<setting id="user5PinStartTime" type="time" label="32117" help="" parent="user5Pin">
+					<level>0</level>
+					<default>00:00</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">4</condition>
+						</dependency>
+					</dependencies>
+					<control type="button" format="time">
+						<heading>32117</heading>
+					</control>
+				</setting>
+				<setting id="user5PinEndTime" type="time" label="32118" help="" parent="user5Pin">
+					<level>0</level>
+					<default>23:59</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">4</condition>
+						</dependency>
+					</dependencies>
+					<control type="button" format="time">
+						<heading>32118</heading>
+					</control>
+				</setting>
+				<setting id="user5PinViewingLimit" type="integer" label="32033" help="" parent="user5Pin">
+					<level>0</level>
+					<default>60</default>
+					<constraints>
+						<minimum>15</minimum>
+						<step>15</step>
+						<maximum>360</maximum>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="gt" setting="numberOfLimitedUsers">4</condition>
+						</dependency>
+					</dependencies>
+					<control type="slider" format="integer">
+						<popup>false</popup>
+					</control>
+				</setting>
+				<setting id="user5PinLastLimitData" type="string" label="Last time the daily limit used was set" help="">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>Last time the daily limit used was set</heading>
+						<hidden>true</hidden>
+					</control>
+				</setting>
+				<setting id="user5PinLimitUsed" type="string" label="How much of the daily limit has been used" help="">
+					<level>0</level>
+					<default>0</default>
+					<dependencies>
+						<dependency type="visible">
+							<condition on="property" name="InfoBool">false</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>How much of the daily limit has been used</heading>
+						<hidden>true</hidden>
+					</control>
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>
