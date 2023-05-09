@@ -1,0 +1,579 @@
+﻿2023-05-09 10:28:05.090 T:15000    info <general>: -----------------------------------------------------------------------
+2023-05-09 10:28:05.090 T:15000    info <general>: Starting Kodi (20.1 (20.1.0) Git:20230312-289ec664e3). Platform: Windows NT x86 64-bit
+2023-05-09 10:28:05.090 T:15000    info <general>: Using Release Kodi x64
+2023-05-09 10:28:05.090 T:15000    info <general>: Kodi compiled 2023-03-12 by MSVC 193431937 for Windows NT x86 64-bit version 10.0 (0x0A00000B)
+2023-05-09 10:28:05.090 T:15000    info <general>: Running on Windows 11 22H2, kernel: Windows NT x86 64-bit version 10.0.22621.1555
+2023-05-09 10:28:05.090 T:15000    info <general>: FFmpeg version/source: 4.4.1-Kodi
+2023-05-09 10:28:05.090 T:15000    info <general>: Host CPU: 11th Gen Intel(R) Core(TM) i5-1145G7 @ 2.60GHz, 8 cores available
+2023-05-09 10:28:05.091 T:15000    info <general>: System has 16.0 GB of RAM installed
+2023-05-09 10:28:05.091 T:15000    info <general>: Desktop Resolution: 1920x1080 32Bit at 60Hz
+2023-05-09 10:28:05.091 T:15000    info <general>: Running with administrator rights
+2023-05-09 10:28:05.091 T:15000    info <general>: Aero is enabled
+2023-05-09 10:28:05.091 T:15000    info <general>: Display is not HDR capable or cannot be detected
+2023-05-09 10:28:05.091 T:15000    info <general>: special://xbmc/ is mapped to: C:\Program Files\Kodi
+2023-05-09 10:28:05.091 T:15000    info <general>: special://xbmcbin/ is mapped to: C:\Program Files\Kodi
+2023-05-09 10:28:05.091 T:15000    info <general>: special://xbmcbinaddons/ is mapped to: C:\Program Files\Kodi/addons
+2023-05-09 10:28:05.091 T:15000    info <general>: special://masterprofile/ is mapped to: C:\Users\admin\AppData\Roaming\Kodi\userdata
+2023-05-09 10:28:05.091 T:15000    info <general>: special://home/ is mapped to: C:\Users\admin\AppData\Roaming\Kodi\
+2023-05-09 10:28:05.091 T:15000    info <general>: special://temp/ is mapped to: C:\Users\admin\AppData\Roaming\Kodi\cache
+2023-05-09 10:28:05.091 T:15000    info <general>: special://logpath/ is mapped to: C:\Users\admin\AppData\Roaming\Kodi\
+2023-05-09 10:28:05.091 T:15000    info <general>: Webserver extra whitelist paths: 
+2023-05-09 10:28:05.091 T:15000    info <general>: The executable running is: C:\Program Files\Kodi\Kodi.exe
+2023-05-09 10:28:05.100 T:15000    info <general>: Local hostname: WIN11
+2023-05-09 10:28:05.100 T:15000    info <general>: Log File is located: C:\Users\admin\AppData\Roaming\Kodi\kodi.log
+2023-05-09 10:28:05.100 T:15000    info <general>: -----------------------------------------------------------------------
+2023-05-09 10:28:05.101 T:15000    info <general>: loading settings
+2023-05-09 10:28:05.102 T:15000    info <general>: special://profile/ is mapped to: special://masterprofile/
+2023-05-09 10:28:05.103 T:15000   error <general>: CSettings: unable to load settings from special://masterprofile/guisettings.xml, creating new default settings
+2023-05-09 10:28:05.140 T:15000    info <general>: No settings file to load (special://xbmc/system/advancedsettings.xml)
+2023-05-09 10:28:05.141 T:15000    info <general>: No settings file to load (special://masterprofile/advancedsettings.xml)
+2023-05-09 10:28:05.141 T:15000    info <general>: Default Video Player: VideoPlayer
+2023-05-09 10:28:05.141 T:15000    info <general>: Default Audio Player: paplayer
+2023-05-09 10:28:05.141 T:15000    info <general>: Disabled debug logging due to GUI setting. Level 0.
+2023-05-09 10:28:05.141 T:15000    info <general>: Log level changed to "info"
+2023-05-09 10:28:05.143 T:15000    info <general>: creating subdirectories
+2023-05-09 10:28:05.143 T:15000    info <general>: userdata folder: special://masterprofile/
+2023-05-09 10:28:05.143 T:15000    info <general>: recording folder: 
+2023-05-09 10:28:05.143 T:15000    info <general>: screenshots folder: 
+2023-05-09 10:28:05.202 T:15000    info <general>: creating version table
+2023-05-09 10:28:05.204 T:15000    info <general>: create addons table
+2023-05-09 10:28:05.204 T:15000    info <general>: create repo table
+2023-05-09 10:28:05.204 T:15000    info <general>: create addonlinkrepo table
+2023-05-09 10:28:05.204 T:15000    info <general>: create update_rules table
+2023-05-09 10:28:05.204 T:15000    info <general>: create package table
+2023-05-09 10:28:05.204 T:15000    info <general>: create installed table
+2023-05-09 10:28:05.205 T:15000    info <general>: ADDON::CAddonDatabase::CreateAnalytics creating indices
+2023-05-09 10:28:05.912 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: audioencoder.kodi.builtin.aac v1.0.2 installed
+2023-05-09 10:28:05.913 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: audioencoder.kodi.builtin.wma v1.0.2 installed
+2023-05-09 10:28:05.913 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: game.controller.default v1.0.39 installed
+2023-05-09 10:28:05.913 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: game.controller.keyboard v1.1.27 installed
+2023-05-09 10:28:05.913 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: game.controller.mouse v1.0.22 installed
+2023-05-09 10:28:05.913 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: game.controller.snes v1.0.37 installed
+2023-05-09 10:28:05.914 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: kodi.binary.global.audioengine v1.1.1 installed
+2023-05-09 10:28:05.914 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: kodi.binary.global.filesystem v1.1.8 installed
+2023-05-09 10:28:05.914 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: kodi.binary.global.general v1.0.5 installed
+2023-05-09 10:28:05.914 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: kodi.binary.global.gui v5.15.0 installed
+2023-05-09 10:28:05.914 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: kodi.binary.global.main v2.0.2 installed
+2023-05-09 10:28:05.914 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: kodi.binary.global.network v1.0.4 installed
+2023-05-09 10:28:05.914 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: kodi.binary.global.tools v1.0.4 installed
+2023-05-09 10:28:05.914 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: kodi.binary.instance.audiodecoder v4.0.0 installed
+2023-05-09 10:28:05.915 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: kodi.binary.instance.audioencoder v3.0.0 installed
+2023-05-09 10:28:05.915 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: kodi.binary.instance.game v3.0.0 installed
+2023-05-09 10:28:05.915 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: kodi.binary.instance.imagedecoder v3.0.1 installed
+2023-05-09 10:28:05.915 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: kodi.binary.instance.inputstream v3.2.0 installed
+2023-05-09 10:28:05.915 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: kodi.binary.instance.peripheral v2.0.0 installed
+2023-05-09 10:28:05.915 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: kodi.binary.instance.pvr v8.2.0 installed
+2023-05-09 10:28:05.915 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: kodi.binary.instance.screensaver v2.2.0 installed
+2023-05-09 10:28:05.916 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: kodi.binary.instance.vfs v3.0.1 installed
+2023-05-09 10:28:05.916 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: kodi.binary.instance.videocodec v2.0.3 installed
+2023-05-09 10:28:05.916 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: kodi.binary.instance.visualization v4.0.0 installed
+2023-05-09 10:28:05.916 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: kodi.resource v1.0.0 installed
+2023-05-09 10:28:05.916 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: metadata.album.universal v3.1.4 installed
+2023-05-09 10:28:05.916 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: metadata.artists.universal v4.3.3 installed
+2023-05-09 10:28:05.916 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: metadata.common.allmusic.com v3.2.2 installed
+2023-05-09 10:28:05.917 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: metadata.common.fanart.tv v3.6.3 installed
+2023-05-09 10:28:05.917 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: metadata.common.musicbrainz.org v2.2.4 installed
+2023-05-09 10:28:05.917 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: metadata.common.theaudiodb.com v2.0.3 installed
+2023-05-09 10:28:05.917 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: metadata.generic.albums v1.0.14 installed
+2023-05-09 10:28:05.917 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: metadata.generic.artists v1.0.14 installed
+2023-05-09 10:28:05.917 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: metadata.local v1.0.1 installed
+2023-05-09 10:28:05.917 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: metadata.themoviedb.org.python v1.3.1+matrix.1 installed
+2023-05-09 10:28:05.918 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: metadata.tvshows.themoviedb.org.python v1.6.0 installed
+2023-05-09 10:28:05.918 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: peripheral.joystick v20.1.8 installed
+2023-05-09 10:28:05.918 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: repository.xbmc.org v3.3.1 installed
+2023-05-09 10:28:05.918 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: resource.images.weathericons.default v1.1.9 installed
+2023-05-09 10:28:05.918 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: resource.language.en_gb v2.0.2 installed
+2023-05-09 10:28:05.918 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: resource.uisounds.kodi v1.0.1 installed
+2023-05-09 10:28:05.918 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: screensaver.xbmc.builtin.black v1.0.34 installed
+2023-05-09 10:28:05.918 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: screensaver.xbmc.builtin.dim v1.0.66 installed
+2023-05-09 10:28:05.919 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: script.module.pil v5.1.0 installed
+2023-05-09 10:28:05.919 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: script.module.pycryptodome v3.4.3 installed
+2023-05-09 10:28:05.919 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: service.xbmc.versioncheck v0.5.19+matrix.1 installed
+2023-05-09 10:28:05.919 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: skin.estouchy v3.0.8 installed
+2023-05-09 10:28:05.919 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: skin.estuary v3.0.10 installed
+2023-05-09 10:28:05.919 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: webinterface.default v19.x-2.4.8 installed
+2023-05-09 10:28:05.919 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: xbmc.addon v20.1.0 installed
+2023-05-09 10:28:05.919 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: xbmc.core v0.1.0 installed
+2023-05-09 10:28:05.920 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: xbmc.gui v5.16.0 installed
+2023-05-09 10:28:05.920 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: xbmc.json v13.0.0 installed
+2023-05-09 10:28:05.920 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: xbmc.metadata v2.1.0 installed
+2023-05-09 10:28:05.920 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: xbmc.python v3.0.1 installed
+2023-05-09 10:28:05.920 T:15000    info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddons: xbmc.webinterface v1.0.0 installed
+2023-05-09 10:28:05.926 T:15000    info <general>: CKeyboardLayoutManager: loading keyboard layouts from special://xbmc/system/keyboardlayouts...
+2023-05-09 10:28:06.257 T:6912     info <general>: Loading special://xbmc/system/IRSSmap.xml
+2023-05-09 10:28:06.258 T:15000    info <general>: Primary mode: Generic PnP Monitor #1: 1920x1080 @ 60.00Hz
+2023-05-09 10:28:06.259 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1920x1080 @ 60.00Hz
+2023-05-09 10:28:06.260 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1920x1080 @ 48.00Hz
+2023-05-09 10:28:06.260 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 640x480 @ 60.00Hz
+2023-05-09 10:28:06.260 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 640x480 @ 48.00Hz
+2023-05-09 10:28:06.261 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 800x600 @ 60.00Hz
+2023-05-09 10:28:06.261 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 800x600 @ 48.00Hz
+2023-05-09 10:28:06.261 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1024x768 @ 60.00Hz
+2023-05-09 10:28:06.262 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1024x768 @ 48.00Hz
+2023-05-09 10:28:06.262 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1152x864 @ 60.00Hz
+2023-05-09 10:28:06.262 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1152x864 @ 48.00Hz
+2023-05-09 10:28:06.263 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1280x600 @ 60.00Hz
+2023-05-09 10:28:06.263 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1280x600 @ 48.00Hz
+2023-05-09 10:28:06.264 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1280x720 @ 60.00Hz
+2023-05-09 10:28:06.264 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1280x720 @ 48.00Hz
+2023-05-09 10:28:06.264 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1280x768 @ 60.00Hz
+2023-05-09 10:28:06.265 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1280x768 @ 48.00Hz
+2023-05-09 10:28:06.265 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1280x800 @ 60.00Hz
+2023-05-09 10:28:06.265 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1280x800 @ 48.00Hz
+2023-05-09 10:28:06.266 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1280x960 @ 60.00Hz
+2023-05-09 10:28:06.266 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1280x960 @ 48.00Hz
+2023-05-09 10:28:06.266 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1280x1024 @ 60.00Hz
+2023-05-09 10:28:06.266 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1280x1024 @ 48.00Hz
+2023-05-09 10:28:06.267 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1360x768 @ 60.00Hz
+2023-05-09 10:28:06.267 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1360x768 @ 48.00Hz
+2023-05-09 10:28:06.267 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1366x768 @ 60.00Hz
+2023-05-09 10:28:06.268 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1366x768 @ 48.00Hz
+2023-05-09 10:28:06.268 T:6912     info <general>: * Adding remote mapping for device 'Microsoft MCE'
+2023-05-09 10:28:06.268 T:6912     info <general>: * Adding remote mapping for device 'Abstract'
+2023-05-09 10:28:06.268 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1400x1050 @ 60.00Hz
+2023-05-09 10:28:06.268 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1400x1050 @ 48.00Hz
+2023-05-09 10:28:06.268 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1440x900 @ 60.00Hz
+2023-05-09 10:28:06.269 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1440x900 @ 48.00Hz
+2023-05-09 10:28:06.269 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1600x900 @ 60.00Hz
+2023-05-09 10:28:06.270 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1600x900 @ 48.00Hz
+2023-05-09 10:28:06.270 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1680x1050 @ 60.00Hz
+2023-05-09 10:28:06.271 T:15000    info <general>: Additional mode: Generic PnP Monitor #1: 1680x1050 @ 48.00Hz
+2023-05-09 10:28:06.271 T:15000    info <general>: CApplication::CApplication::CreateGUI - using the default windowing system
+2023-05-09 10:28:06.271 T:15000    info <general>: Checking resolution 16
+2023-05-09 10:28:06.368 T:15000    info <general>: DX::DeviceResources::CheckNV12SharedTexturesSupport: extended NV12 shared textures is supported
+2023-05-09 10:28:06.376 T:15000    info <general>: DX::DeviceResources::CreateDeviceResources: device is created on adapter 'Intel(R) Iris(R) Xe Graphics' with D3D_FEATURE_LEVEL_12_1
+2023-05-09 10:28:06.377 T:15000    info <general>: DX::DeviceResources::GetVideoDriverVersion: video driver version is Intel 31.0.101.3959
+2023-05-09 10:28:06.377 T:15000    info <general>: DX::DeviceResources::CheckDXVA2SharedDecoderSurfaces: DXVA2 shared decoder surfaces is supported
+2023-05-09 10:28:06.391 T:15000    info <general>: DX::DeviceResources::ResizeBuffers: 8 bit swapchain is used with 6 flip discard buffers and SDR output
+2023-05-09 10:28:06.629 T:15000    info <general>: RetroPlayer[RENDER]: Registering renderer factory for DirectX
+2023-05-09 10:28:06.834 T:15000    info <general>: load keymapping
+2023-05-09 10:28:06.837 T:15000    info <general>: Loading special://xbmc/system/keymaps/appcommand.xml
+2023-05-09 10:28:06.856 T:15000    info <general>: Loading special://xbmc/system/keymaps/customcontroller.AppleRemote.xml
+2023-05-09 10:28:06.870 T:15000    info <general>: Loading special://xbmc/system/keymaps/customcontroller.Harmony.xml
+2023-05-09 10:28:06.884 T:15000    info <general>: Loading special://xbmc/system/keymaps/customcontroller.SiriRemote.xml
+2023-05-09 10:28:06.896 T:15000    info <general>: Loading special://xbmc/system/keymaps/gamepad.xml
+2023-05-09 10:28:06.908 T:15000    info <general>: Loading special://xbmc/system/keymaps/joystick.xml
+2023-05-09 10:28:06.921 T:15000    info <general>: Loading special://xbmc/system/keymaps/keyboard.xml
+2023-05-09 10:28:06.935 T:15000    info <general>: Loading special://xbmc/system/keymaps/mouse.xml
+2023-05-09 10:28:06.947 T:15000    info <general>: Loading special://xbmc/system/keymaps/remote.xml
+2023-05-09 10:28:06.960 T:15000    info <general>: Loading special://xbmc/system/keymaps/touchscreen.xml
+2023-05-09 10:28:06.972 T:15000    info <general>: GUI format 1920x1080, Display Generic PnP Monitor #1: 1920x1080 @ 60.00Hz
+2023-05-09 10:28:07.370 T:4860     info <general>: Found 2 Lists of Devices
+2023-05-09 10:28:07.370 T:4860     info <general>: Enumerated DIRECTSOUND devices:
+2023-05-09 10:28:07.370 T:4860     info <general>:     Device 1
+2023-05-09 10:28:07.370 T:4860     info <general>:         m_deviceName      : {1A7A2791-116C-4828-A241-55E09B949F8B}
+2023-05-09 10:28:07.370 T:4860     info <general>:         m_displayName     : Speakers - Speakers (4- Realtek(R) Audio)
+2023-05-09 10:28:07.370 T:4860     info <general>:         m_displayNameExtra: DIRECTSOUND: Speakers (4- Realtek(R) Audio)
+2023-05-09 10:28:07.370 T:4860     info <general>:         m_deviceType      : AE_DEVTYPE_PCM
+2023-05-09 10:28:07.370 T:4860     info <general>:         m_channels        : FL, FR
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_sampleRates     : 48000
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_dataFormats     : AE_FMT_FLOAT
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_streamTypes     : No passthrough capabilities
+2023-05-09 10:28:07.371 T:4860     info <general>:     Device 2
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_deviceName      : default
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_displayName     : default
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_displayNameExtra: 
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_deviceType      : AE_DEVTYPE_PCM
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_channels        : FL, FR
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_sampleRates     : 48000
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_dataFormats     : AE_FMT_FLOAT
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_streamTypes     : No passthrough capabilities
+2023-05-09 10:28:07.371 T:4860     info <general>: Enumerated WASAPI devices:
+2023-05-09 10:28:07.371 T:4860     info <general>:     Device 1
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_deviceName      : {1A7A2791-116C-4828-A241-55E09B949F8B}
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_displayName     : Speakers - Speakers (4- Realtek(R) Audio)
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_displayNameExtra: WASAPI: Speakers (4- Realtek(R) Audio)
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_deviceType      : AE_DEVTYPE_PCM
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_channels        : FL, FR
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_sampleRates     : 192000,176400,96000,88200,48000,44100,32000,22050,11025
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_dataFormats     : AE_FMT_S24NE3,AE_FMT_S24LE3,AE_FMT_S24BE3,AE_FMT_S24NE4MSB,AE_FMT_S16NE,AE_FMT_S16LE,AE_FMT_S16BE,AE_FMT_U8
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_streamTypes     : No passthrough capabilities
+2023-05-09 10:28:07.371 T:4860     info <general>:     Device 2
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_deviceName      : default
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_displayName     : default
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_displayNameExtra: 
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_deviceType      : AE_DEVTYPE_PCM
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_channels        : FL, FR
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_sampleRates     : 192000,176400,96000,88200,48000,44100,32000,22050,11025
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_dataFormats     : AE_FMT_S24NE3,AE_FMT_S24LE3,AE_FMT_S24BE3,AE_FMT_S24NE4MSB,AE_FMT_S16NE,AE_FMT_S16LE,AE_FMT_S16BE,AE_FMT_U8
+2023-05-09 10:28:07.371 T:4860     info <general>:         m_streamTypes     : No passthrough capabilities
+2023-05-09 10:28:07.372 T:6916     info <general>: CActiveAESink::OpenSink - initialize sink
+2023-05-09 10:28:07.420 T:4860  warning <general>: CActiveAE::ActiveAE::CActiveAE::StateMachine - signal: 0 from port: OutputControlPort not handled for state: 7
+2023-05-09 10:28:07.421 T:15000    info <general>: Skipped 1 duplicate messages..
+2023-05-09 10:28:07.421 T:15000    info <general>: CLangInfo: loading resource.language.en_gb language information...
+2023-05-09 10:28:07.485 T:15000    info <general>: global locale set to en-us
+2023-05-09 10:28:07.486 T:15000    info <general>: CLangInfo: loading resource.language.en_gb language strings...
+2023-05-09 10:28:07.717 T:16484    info <general>: Running database version Addons33
+2023-05-09 10:28:07.829 T:16484    info <general>: creating version table
+2023-05-09 10:28:07.834 T:16484    info <general>: create view table
+2023-05-09 10:28:07.835 T:16484    info <general>: CViewDatabase::CreateAnalytics - creating indices
+2023-05-09 10:28:07.855 T:16484    info <general>: creating version table
+2023-05-09 10:28:07.857 T:16484    info <general>: create texture table
+2023-05-09 10:28:07.857 T:16484    info <general>: create sizes table, index,  and trigger
+2023-05-09 10:28:07.857 T:16484    info <general>: create path table
+2023-05-09 10:28:07.857 T:16484    info <general>: CTextureDatabase::CreateAnalytics creating indices
+2023-05-09 10:28:07.858 T:16484    info <general>: CTextureDatabase::CreateAnalytics creating triggers
+2023-05-09 10:28:07.880 T:16484    info <general>: creating version table
+2023-05-09 10:28:07.881 T:16484    info <general>: create artist table
+2023-05-09 10:28:07.882 T:16484    info <general>: create album table
+2023-05-09 10:28:07.882 T:16484    info <general>: create audiobook table
+2023-05-09 10:28:07.883 T:16484    info <general>: create album_artist table
+2023-05-09 10:28:07.883 T:16484    info <general>: create album_source table
+2023-05-09 10:28:07.883 T:16484    info <general>: create genre table
+2023-05-09 10:28:07.883 T:16484    info <general>: create path table
+2023-05-09 10:28:07.883 T:16484    info <general>: create source table
+2023-05-09 10:28:07.883 T:16484    info <general>: create source_path table
+2023-05-09 10:28:07.883 T:16484    info <general>: create song table
+2023-05-09 10:28:07.884 T:16484    info <general>: create song_artist table
+2023-05-09 10:28:07.884 T:16484    info <general>: create song_genre table
+2023-05-09 10:28:07.884 T:16484    info <general>: create role table
+2023-05-09 10:28:07.884 T:16484    info <general>: create infosetting table
+2023-05-09 10:28:07.884 T:16484    info <general>: create discography table
+2023-05-09 10:28:07.885 T:16484    info <general>: create art table
+2023-05-09 10:28:07.885 T:16484    info <general>: create versiontagscan table
+2023-05-09 10:28:07.885 T:16484    info <general>: create removed_link table
+2023-05-09 10:28:07.885 T:16484    info <general>: CMusicDatabase::CreateAnalytics - creating indices
+2023-05-09 10:28:07.889 T:16484    info <general>: create triggers
+2023-05-09 10:28:07.891 T:16484    info <general>: create song view
+2023-05-09 10:28:07.892 T:16484    info <general>: create album view
+2023-05-09 10:28:07.892 T:16484    info <general>: create artist view
+2023-05-09 10:28:07.893 T:16484    info <general>: create albumartist view
+2023-05-09 10:28:07.893 T:16484    info <general>: create songartist view
+2023-05-09 10:28:07.919 T:16484    info <general>: creating version table
+2023-05-09 10:28:07.921 T:16484    info <general>: create bookmark table
+2023-05-09 10:28:07.921 T:16484    info <general>: create settings table
+2023-05-09 10:28:07.921 T:16484    info <general>: create stacktimes table
+2023-05-09 10:28:07.921 T:16484    info <general>: create genre table
+2023-05-09 10:28:07.921 T:16484    info <general>: create country table
+2023-05-09 10:28:07.922 T:16484    info <general>: create movie table
+2023-05-09 10:28:07.922 T:16484    info <general>: create actor table
+2023-05-09 10:28:07.922 T:16484    info <general>: create path table
+2023-05-09 10:28:07.922 T:16484    info <general>: create files table
+2023-05-09 10:28:07.922 T:16484    info <general>: create tvshow table
+2023-05-09 10:28:07.923 T:16484    info <general>: create episode table
+2023-05-09 10:28:07.923 T:16484    info <general>: create tvshowlinkpath table
+2023-05-09 10:28:07.923 T:16484    info <general>: create movielinktvshow table
+2023-05-09 10:28:07.923 T:16484    info <general>: create studio table
+2023-05-09 10:28:07.923 T:16484    info <general>: create musicvideo table
+2023-05-09 10:28:07.924 T:16484    info <general>: create streaminfo table
+2023-05-09 10:28:07.924 T:16484    info <general>: create sets table
+2023-05-09 10:28:07.924 T:16484    info <general>: create seasons table
+2023-05-09 10:28:07.924 T:16484    info <general>: create art table
+2023-05-09 10:28:07.924 T:16484    info <general>: create tag table
+2023-05-09 10:28:07.924 T:16484    info <general>: create rating table
+2023-05-09 10:28:07.924 T:16484    info <general>: create uniqueid table
+2023-05-09 10:28:07.925 T:16484    info <general>: CVideoDatabase::CreateAnalytics - creating indices
+2023-05-09 10:28:07.930 T:16484    info <general>: CVideoDatabase::CreateAnalytics - creating triggers
+2023-05-09 10:28:07.932 T:16484    info <general>: create episode_view
+2023-05-09 10:28:07.933 T:16484    info <general>: create tvshowcounts
+2023-05-09 10:28:07.933 T:16484    info <general>: create tvshowlinkpath_minview
+2023-05-09 10:28:07.933 T:16484    info <general>: create tvshow_view
+2023-05-09 10:28:07.933 T:16484    info <general>: create season_view
+2023-05-09 10:28:07.934 T:16484    info <general>: create musicvideo_view
+2023-05-09 10:28:07.934 T:16484    info <general>: create movie_view
+2023-05-09 10:28:07.957 T:16484    info <general>: creating version table
+2023-05-09 10:28:07.959 T:16484    info <general>: PVR::CPVRDatabase::CreateTables: Creating PVR database tables
+2023-05-09 10:28:07.959 T:16484    info <general>: PVR::CPVRDatabase::CreateAnalytics: Creating PVR database indices
+2023-05-09 10:28:07.979 T:16484    info <general>: creating version table
+2023-05-09 10:28:07.981 T:16484    info <general>: Creating EPG database tables
+2023-05-09 10:28:08.030 T:15000    info <general>: Unloaded skin
+2023-05-09 10:28:08.032 T:15000    info <general>:   load skin from: C:\Program Files\Kodi\addons\skin.estuary\ (version: 3.0.10)
+2023-05-09 10:28:08.032 T:15000    info <general>:   load fonts for skin...
+2023-05-09 10:28:08.058 T:15000    info <general>: Loading skin includes from C:\Program Files\Kodi\addons\skin.estuary\xml\Includes.xml
+2023-05-09 10:28:08.381 T:15000    info <general>: GUIFontManager::LoadFonts: Loading fonts from 'C:\Program Files\Kodi\addons\skin.estuary\xml\Font.xml'
+2023-05-09 10:28:08.496 T:15000    info <general>: ADDON::CSkinInfo::LoadTimers: Trying to load skin timers from C:\Program Files\Kodi\addons\skin.estuary\xml\Timers.xml
+2023-05-09 10:28:08.508 T:15000    info <general>:   load new skin...
+2023-05-09 10:28:08.508 T:15000    info <general>: Loading custom window XMLs from skin path C:\Program Files\Kodi\addons\skin.estuary\xml
+2023-05-09 10:28:08.617 T:15000    info <general>:   initialize new skin...
+2023-05-09 10:28:08.617 T:15000    info <general>: Loading skin file: DialogBusy.xml, load type: LOAD_ON_GUI_INIT
+2023-05-09 10:28:08.630 T:15000    info <general>: Loading skin file: Pointer.xml, load type: LOAD_ON_GUI_INIT
+2023-05-09 10:28:08.651 T:15000    info <general>: Loading skin file: DialogVolumeBar.xml, load type: LOAD_ON_GUI_INIT
+2023-05-09 10:28:08.664 T:15000    info <general>: Loading skin file: DialogExtendedProgressBar.xml, load type: LOAD_ON_GUI_INIT
+2023-05-09 10:28:08.678 T:15000    info <general>: Loading skin file: DialogSeekBar.xml, load type: LOAD_ON_GUI_INIT
+2023-05-09 10:28:08.704 T:15000    info <general>: Loading skin file: DialogNotification.xml, load type: LOAD_ON_GUI_INIT
+2023-05-09 10:28:08.717 T:15000    info <general>: Loading skin file: DialogBusy.xml, load type: LOAD_ON_GUI_INIT
+2023-05-09 10:28:08.718 T:15000    info <general>: Loading skin file: Custom_1109_TopBarOverlay.xml, load type: LOAD_ON_GUI_INIT
+2023-05-09 10:28:08.730 T:15000    info <general>: Loading resource://resource.uisounds.kodi/sounds.xml
+2023-05-09 10:28:08.816 T:15000    info <general>:   skin loaded...
+2023-05-09 10:28:08.817 T:15000    info <general>: Loading skin file: Startup.xml, load type: LOAD_EVERY_TIME
+2023-05-09 10:28:08.826 T:15000    info <general>: Loading skin file: Home.xml, load type: KEEP_IN_MEMORY
+2023-05-09 10:28:08.929 T:15000 warning <general>: JSONRPC: Could not parse type "Setting.Details.SettingList"
+2023-05-09 10:28:08.929 T:15000    info <general>: JSONRPC: Adding type "Setting.Details.SettingList" to list of incomplete definitions (waiting for "Setting.Details.Setting")
+2023-05-09 10:28:08.929 T:15000    info <general>: JSONRPC: Resolving incomplete types/methods referencing Setting.Details.Setting
+2023-05-09 10:28:08.953 T:15000    info <general>: JSONRPC v13.0.0: Successfully initialized
+2023-05-09 10:28:09.141 T:15000    info <general>: AddOnLog: peripheral.joystick: Enabling joystick interface "xinput"
+2023-05-09 10:28:09.143 T:15000    info <general>: AddOnLog: peripheral.joystick: Enabling joystick interface "directinput"
+2023-05-09 10:28:09.145 T:15000    info <general>: PERIPHERALS::CPeripheralBus::Register - new keyboard device registered on application->keyboard: Keyboard (0000:0000)
+2023-05-09 10:28:09.146 T:15000    info <general>: PERIPHERALS::CPeripheralBus::Register - new mouse device registered on application->mouse: Mouse (0000:0000)
+2023-05-09 10:28:09.146 T:15000    info <general>: Loading player core factory settings from special://xbmc/system/playercorefactory.xml.
+2023-05-09 10:28:09.161 T:15000    info <general>: Loaded playercorefactory configuration
+2023-05-09 10:28:09.161 T:15000    info <general>: Loading player core factory settings from special://masterprofile/playercorefactory.xml.
+2023-05-09 10:28:09.161 T:15000    info <general>: special://masterprofile/playercorefactory.xml does not exist. Skipping.
+2023-05-09 10:28:09.161 T:15000    info <general>: removing tempfiles
+2023-05-09 10:28:09.165 T:15000    info <general>: initialize done
+2023-05-09 10:28:09.165 T:15000    info <general>: Running the application...
+2023-05-09 10:28:09.168 T:4980     info <general>: ES: Starting UDP Event server on port 9777
+2023-05-09 10:28:09.168 T:4980     info <general>: UDP: Listening on port 9777 (ipv6 : false)
+2023-05-09 10:28:09.169 T:15000    info <general>: JSONRPC Server: Successfully initialized
+2023-05-09 10:28:09.190 T:15000    info <general>: [WS-Discovery]: Daemon started successfully.
+2023-05-09 10:28:10.452 T:6912     info <general>: CIRServerSuite::Process: failed to connect to irss, will keep retrying every 5 seconds
+2023-05-09 10:28:15.356 T:15000    info <general>: Loading skin file: Settings.xml, load type: KEEP_IN_MEMORY
+2023-05-09 10:28:16.886 T:6840     info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddon: metadata.common.fanart.tv v3.6.4 installed
+2023-05-09 10:28:17.307 T:15000    info <general>: Loading skin file: AddonBrowser.xml, load type: KEEP_IN_MEMORY
+2023-05-09 10:28:18.866 T:15000    info <general>: Loading skin file: DialogConfirm.xml, load type: KEEP_IN_MEMORY
+2023-05-09 10:28:19.199 T:16976 warning <general>: [WS-Discovery]: The initial search for servers has failed. No servers found.
+2023-05-09 10:28:19.716 T:6840     info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddon: metadata.themoviedb.org.python v2.1.0 installed
+2023-05-09 10:28:20.066 T:15000 warning <general>: CGUIWindowManager - CGUIWindowManager::HandleAction - ignoring action 107, because topmost modal dialog closing animation is running
+2023-05-09 10:28:20.549 T:15000    info <general>: Skipped 2 duplicate messages..
+2023-05-09 10:28:20.549 T:15000    info <general>: Loading skin file: SettingsCategory.xml, load type: KEEP_IN_MEMORY
+2023-05-09 10:28:22.814 T:6840     info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddon: metadata.tvshows.themoviedb.org.python v1.6.5 installed
+2023-05-09 10:28:25.237 T:6840     info <general>: CServiceAddonManager: failed to stop service.xbmc.versioncheck (may have ended)
+2023-05-09 10:28:25.984 T:6840     info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddon: service.xbmc.versioncheck v0.5.28+matrix.1 installed
+2023-05-09 10:28:28.914 T:6840     info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddon: metadata.album.universal v3.1.9 installed
+2023-05-09 10:28:31.783 T:6840     info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddon: metadata.artists.universal v4.3.11 installed
+2023-05-09 10:28:32.001 T:15000 warning <general>: CGUIMediaWindow::OnMessage - updating in progress
+2023-05-09 10:28:37.482 T:15000    info <general>: Loading skin file: FileBrowser.xml, load type: KEEP_IN_MEMORY
+2023-05-09 10:28:53.534 T:6840     info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddon: script.module.future v0.18.2+matrix.1 installed
+2023-05-09 10:28:56.028 T:6840     info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddon: script.module.six v1.15.0+matrix.1 installed
+2023-05-09 10:28:58.401 T:6840     info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddon: script.module.kodi-six v0.1.3.1 installed
+2023-05-09 10:28:59.135 T:6840     info <general>: CAddonMgr::ADDON::CAddonMgr::FindAddon: script.pinsentry v100.6.0 installed
+2023-05-09 10:28:59.331 T:15000 warning <general>: CGUIMediaWindow::OnMessage - updating in progress
+2023-05-09 10:29:08.845 T:15000    info <general>: Loading skin file: MyVideoNav.xml, load type: KEEP_IN_MEMORY
+2023-05-09 10:29:10.932 T:15000    info <general>: Loading skin file: DialogMediaSource.xml, load type: KEEP_IN_MEMORY
+2023-05-09 10:29:12.681 T:15000    info <general>: Loading skin file: FileBrowser.xml, load type: KEEP_IN_MEMORY
+2023-05-09 10:29:18.033 T:15000 warning <general>: CGUIWindowManager - CGUIWindowManager::HandleAction - ignoring action 107, because topmost modal dialog closing animation is running
+2023-05-09 10:29:19.939 T:15000    info <general>: Skipped 9 duplicate messages..
+2023-05-09 10:29:19.939 T:15000    info <general>: Loading skin file: DialogSettings.xml, load type: KEEP_IN_MEMORY
+2023-05-09 10:29:21.159 T:15000    info <general>: Loading skin file: DialogSelect.xml, load type: KEEP_IN_MEMORY
+2023-05-09 10:29:23.963 T:15000    info <general>: Loading skin file: DialogAddonSettings.xml, load type: KEEP_IN_MEMORY
+2023-05-09 10:29:37.620 T:15000 warning <general>: CGUIWindowManager - CGUIWindowManager::HandleAction - ignoring action 107, because topmost modal dialog closing animation is running
+2023-05-09 10:29:37.868 T:15000    info <general>: Skipped 9 duplicate messages..
+2023-05-09 10:29:37.868 T:15000    info <general>: Loading skin file: DialogConfirm.xml, load type: KEEP_IN_MEMORY
+2023-05-09 10:29:38.408 T:15000 warning <general>: CGUIWindowManager - CGUIWindowManager::HandleAction - ignoring action 107, because topmost modal dialog closing animation is running
+2023-05-09 10:29:38.417 T:11836    info <general>: VideoInfoScanner: Starting scan ..
+2023-05-09 10:29:39.425 T:2708     info <general>: [metadata.themoviedb.org.python]: Find movie with title 'Alcarràs' from year '2022'
+2023-05-09 10:29:40.177 T:2708  warning <general>: Setting most video properties through ListItem.setInfo() is deprecated and might be removed in future Kodi versions. Please use the respective setter in InfoTagVideo.
+2023-05-09 10:29:44.255 T:2708     info <general>: Skipped 1 duplicate messages..
+2023-05-09 10:29:44.255 T:2708  warning <general>: ListItem.setCast() is deprecated and might be removed in future Kodi versions. Please use InfoTagVideo.setCast().
+2023-05-09 10:29:44.255 T:2708  warning <general>: ListItem.setUniqueIDs() is deprecated and might be removed in future Kodi versions. Please use InfoTagVideo.setUniqueIDs().
+2023-05-09 10:29:44.255 T:2708  warning <general>: ListItem.addAvailableArtwork() is deprecated and might be removed in future Kodi versions. Please use InfoTagVideo.addAvailableArtwork().
+2023-05-09 10:29:44.256 T:2708     info <general>: Skipped 11 duplicate messages..
+2023-05-09 10:29:44.256 T:2708  warning <general>: ListItem.setRating() is deprecated and might be removed in future Kodi versions. Please use InfoTagVideo.setRating().
+2023-05-09 10:29:44.808 T:2708     info <general>: Skipped 1 duplicate messages..
+2023-05-09 10:29:44.808 T:2708     info <general>: [metadata.themoviedb.org.python]: Find movie with title 'Extras' from year 'None'
+2023-05-09 10:29:44.814 T:15000    info <general>: Loading skin file: DialogContextMenu.xml, load type: KEEP_IN_MEMORY
+2023-05-09 10:29:45.598 T:2708  warning <general>: Setting most video properties through ListItem.setInfo() is deprecated and might be removed in future Kodi versions. Please use the respective setter in InfoTagVideo.
+2023-05-09 10:29:45.746 T:15000    info <general>: Skipped 39 duplicate messages..
+2023-05-09 10:29:45.746 T:15000 warning <general>: CGUIWindowManager - CGUIWindowManager::HandleAction - ignoring action 107, because topmost modal dialog closing animation is running
+2023-05-09 10:29:46.985 T:2708     info <general>: Skipped 12 duplicate messages..
+2023-05-09 10:29:46.985 T:2708  warning <general>: Setting most video properties through ListItem.setInfo() is deprecated and might be removed in future Kodi versions. Please use the respective setter in InfoTagVideo.
+2023-05-09 10:29:46.986 T:2708  warning <general>: ListItem.setCast() is deprecated and might be removed in future Kodi versions. Please use InfoTagVideo.setCast().
+2023-05-09 10:29:46.986 T:2708  warning <general>: ListItem.setUniqueIDs() is deprecated and might be removed in future Kodi versions. Please use InfoTagVideo.setUniqueIDs().
+2023-05-09 10:29:46.986 T:2708  warning <general>: ListItem.addAvailableArtwork() is deprecated and might be removed in future Kodi versions. Please use InfoTagVideo.addAvailableArtwork().
+2023-05-09 10:29:46.986 T:2708  warning <general>: ListItem.setRating() is deprecated and might be removed in future Kodi versions. Please use InfoTagVideo.setRating().
+2023-05-09 10:29:47.138 T:2708     info <general>: [metadata.themoviedb.org.python]: Find movie with title 'The Fabelmans' from year '2023'
+2023-05-09 10:29:47.486 T:2708  warning <general>: Setting most video properties through ListItem.setInfo() is deprecated and might be removed in future Kodi versions. Please use the respective setter in InfoTagVideo.
+2023-05-09 10:29:48.092 T:11400 warning <general>: CPythonInvoker(4): Script invoked without an addon. Adding all addon modules installed to python path as fallback. This behaviour will be removed in future version.
+2023-05-09 10:29:48.161 T:15000    info <general>: Loading skin file: C:\Program Files\Kodi\addons\skin.estuary\xml\DialogNumeric.xml, load type: LOAD_ON_GUI_INIT
+2023-05-09 10:29:50.993 T:15000 warning <general>: CGUIWindowManager - CGUIWindowManager::HandleAction - ignoring action 107, because topmost modal dialog closing animation is running
+2023-05-09 10:29:51.010 T:15000    info <general>: Loading skin file: C:\Program Files\Kodi\addons\skin.estuary\xml\DialogNumeric.xml, load type: LOAD_ON_GUI_INIT
+2023-05-09 10:29:52.045 T:2708  warning <general>: Setting most video properties through ListItem.setInfo() is deprecated and might be removed in future Kodi versions. Please use the respective setter in InfoTagVideo.
+2023-05-09 10:29:52.045 T:2708  warning <general>: ListItem.setCast() is deprecated and might be removed in future Kodi versions. Please use InfoTagVideo.setCast().
+2023-05-09 10:29:52.045 T:2708  warning <general>: ListItem.setUniqueIDs() is deprecated and might be removed in future Kodi versions. Please use InfoTagVideo.setUniqueIDs().
+2023-05-09 10:29:52.045 T:2708  warning <general>: ListItem.addAvailableArtwork() is deprecated and might be removed in future Kodi versions. Please use InfoTagVideo.addAvailableArtwork().
+2023-05-09 10:29:52.046 T:2708     info <general>: Skipped 31 duplicate messages..
+2023-05-09 10:29:52.046 T:2708  warning <general>: ListItem.setRating() is deprecated and might be removed in future Kodi versions. Please use InfoTagVideo.setRating().
+2023-05-09 10:29:52.108 T:11836    info <general>: Skipped 1 duplicate messages..
+2023-05-09 10:29:52.107 T:11836    info <general>: VideoInfoScanner: Finished scan. Scanning for video info took 13694 ms
+2023-05-09 10:29:53.610 T:15000 warning <general>: CGUIWindowManager - CGUIWindowManager::HandleAction - ignoring action 107, because topmost modal dialog closing animation is running
+2023-05-09 10:29:56.478 T:15000    info <general>: Skipped 1 duplicate messages..
+2023-05-09 10:29:56.478 T:15000 warning <general>: CGUIWindowManager - CGUIWindowManager::HandleAction - ignoring action 92, because topmost modal dialog closing animation is running
+2023-05-09 10:29:57.453 T:15000   error <general>: Control 55 in window 10025 has been asked to focus, but it can't
+2023-05-09 10:29:57.765 T:15000    info <general>: Loading skin file: C:\Program Files\Kodi\addons\skin.estuary\xml\DialogNumeric.xml, load type: LOAD_ON_GUI_INIT
+2023-05-09 10:30:09.181 T:7388  warning <general>: Setting most video properties through ListItem.setInfo() is deprecated and might be removed in future Kodi versions. Please use the respective setter in InfoTagVideo.
+2023-05-09 10:30:17.126 T:15000    info <general>: Skipped 8 duplicate messages..
+2023-05-09 10:30:17.125 T:15000    info <general>: Loading skin file: Home.xml, load type: KEEP_IN_MEMORY
+2023-05-09 10:30:20.014 T:15000 warning <general>: CGUIWindowManager - CGUIWindowManager::HandleAction - ignoring action 107, because topmost modal dialog closing animation is running
+2023-05-09 10:30:29.590 T:15000    info <general>: Skipped 3 duplicate messages..
+2023-05-09 10:30:29.590 T:15000   error <general>: Control 55 in window 10025 has been asked to focus, but it can't
+2023-05-09 10:30:29.708 T:15000    info <general>: Loading skin file: C:\Program Files\Kodi\addons\skin.estuary\xml\DialogNumeric.xml, load type: LOAD_ON_GUI_INIT
+2023-05-09 10:30:32.408 T:15000 warning <general>: CGUIWindowManager - CGUIWindowManager::HandleAction - ignoring action 107, because topmost modal dialog closing animation is running
+2023-05-09 10:30:37.183 T:15000    info <general>: Skipped 11 duplicate messages..
+2023-05-09 10:30:37.183 T:15000    info <general>: VideoPlayer::OpenFile: C:\temp\Movies\Official Competition (2022)\Official Competition.mkv
+2023-05-09 10:30:37.184 T:6692     info <general>: Creating InputStream
+2023-05-09 10:30:37.194 T:6692     info <general>: Creating Demuxer
+2023-05-09 10:30:37.198 T:6692     info <general>: Opening stream: 0 source: 256
+2023-05-09 10:30:37.198 T:6692     info <general>: Creating video codec with codec id: 173
+2023-05-09 10:30:37.198 T:6692     info <general>: CDVDVideoCodecFFmpeg::Open() Using codec: HEVC (High Efficiency Video Coding)
+2023-05-09 10:30:37.198 T:6692     info <general>: Creating video thread
+2023-05-09 10:30:37.199 T:14660    info <general>: running thread: video_thread
+2023-05-09 10:30:37.199 T:6692     info <general>: Opening stream: 1 source: 256
+2023-05-09 10:30:37.199 T:6692     info <general>: Finding audio codec for: 86018
+2023-05-09 10:30:37.200 T:6692     info <general>: CDVDAudioCodecFFmpeg::Open() Successful opened audio decoder aac
+2023-05-09 10:30:37.200 T:6692     info <general>: CVideoPlayerAudio::OpenStream: Allowing max Out-Of-Sync Value of 10 ms
+2023-05-09 10:30:37.200 T:6692     info <general>: Creating audio thread
+2023-05-09 10:30:37.201 T:6568     info <general>: running thread: CVideoPlayerAudio::Process()
+2023-05-09 10:30:37.201 T:6692     info <general>: Opening stream: 2 source: 256
+2023-05-09 10:30:37.201 T:6692     info <general>: CDVDSubtitlesLibass: Using libass version 1502000
+2023-05-09 10:30:37.201 T:6692     info <general>: CDVDSubtitlesLibass: Creating ASS library structure
+2023-05-09 10:30:37.201 T:6692     info <general>: CDVDSubtitlesLibass: Initializing ASS Renderer
+2023-05-09 10:30:37.205 T:6692     info <general>: CDVDSubtitlesLibass: Initializing ASS library font settings
+2023-05-09 10:30:37.295 T:6692     info <general>: CDVDSubtitlesLibass: Creating new ASS track
+2023-05-09 10:30:37.296 T:14660    info <general>: DXVA::CContext::CreateContext: creating discrete d3d11va device for decoding.
+2023-05-09 10:30:37.303 T:6568     info <general>: Creating audio stream (codec id: 86018, channels: 6, sample rate: 48000, no pass-through)
+2023-05-09 10:30:37.303 T:6916     info <general>: CActiveAESink::OpenSink - initialize sink
+2023-05-09 10:30:37.373 T:14660    info <general>: DXVA::CDecoder::Open: Total video memory available is 8181 MB (dedicated = 128 MB, shared = 8053 MB)
+2023-05-09 10:30:37.452 T:15000    info <general>: Loading skin file: C:\Program Files\Kodi\addons\skin.estuary\xml\DialogNumeric.xml, load type: LOAD_ON_GUI_INIT
+2023-05-09 10:30:37.675 T:15000    info <general>: DXVA::CProcessorHD::InitProcessor: supported deinterlace methods: blend:yes, bob:yes, adaptive:yes, mocomp:yes.
+2023-05-09 10:30:37.703 T:15000 warning <general>: CRendererHQ::CheckVideoParameters: chosen scaling method 1 is not supported by renderer
+2023-05-09 10:30:37.803 T:15000    info <general>: Loading skin file: VideoFullScreen.xml, load type: KEEP_IN_MEMORY
+2023-05-09 10:30:52.288 T:15000    info <general>: CVideoPlayer::CloseFile()
+2023-05-09 10:30:52.291 T:6692     info <general>: CVideoPlayer::OnExit()
+2023-05-09 10:30:52.291 T:6692     info <general>: Closing stream player 1
+2023-05-09 10:30:52.291 T:6692     info <general>: Waiting for audio thread to exit
+2023-05-09 10:30:52.291 T:6568     info <general>: thread end: CVideoPlayerAudio::OnExit()
+2023-05-09 10:30:52.292 T:6692     info <general>: Closing audio device
+2023-05-09 10:30:52.306 T:6692     info <general>: Deleting audio codec
+2023-05-09 10:30:52.307 T:6692     info <general>: Closing stream player 2
+2023-05-09 10:30:52.307 T:6692     info <general>: waiting for video thread to exit
+2023-05-09 10:30:52.315 T:14660    info <general>: thread end: video_thread
+2023-05-09 10:30:52.319 T:6692     info <general>: deleting video codec
+2023-05-09 10:30:52.321 T:6692     info <general>: Closing stream player 3
+2023-05-09 10:30:52.327 T:11836    info <general>: Deleting settings information for files C:\temp\Movies\Official Competition (2022)\Official Competition.mkv
+2023-05-09 10:30:52.337 T:6916     info <general>: CActiveAESink::OpenSink - initialize sink
+2023-05-09 10:30:52.403 T:15000    info <general>: DXVA::CDecoder::Close: closing decoder.
+2023-05-09 10:30:52.403 T:15000    info <general>: DXVA: closing decoder context.
+2023-05-09 10:30:52.433 T:15000    info <general>: VideoPlayer: waiting for threads to exit
+2023-05-09 10:30:52.433 T:15000    info <general>: VideoPlayer: finished waiting
+2023-05-09 10:30:52.433 T:15000    info <general>: CVideoPlayer::CloseFile()
+2023-05-09 10:30:52.433 T:15000    info <general>: VideoPlayer: waiting for threads to exit
+2023-05-09 10:30:52.433 T:15000    info <general>: VideoPlayer: finished waiting
+2023-05-09 10:30:52.435 T:15000 warning <general>: CGUIWindowManager - CGUIWindowManager::HandleAction - ignoring action 107, because topmost modal dialog closing animation is running
+2023-05-09 10:30:54.443 T:15000    info <general>: Skipped 1 duplicate messages..
+2023-05-09 10:30:54.443 T:15000    info <general>: VideoPlayer::OpenFile: C:\temp\Movies\Official Competition (2022)\Official Competition.mkv
+2023-05-09 10:30:54.444 T:15132    info <general>: Creating InputStream
+2023-05-09 10:30:54.454 T:15132    info <general>: Creating Demuxer
+2023-05-09 10:30:54.458 T:15132    info <general>: Opening stream: 0 source: 256
+2023-05-09 10:30:54.458 T:15132    info <general>: Creating video codec with codec id: 173
+2023-05-09 10:30:54.458 T:15132    info <general>: CDVDVideoCodecFFmpeg::Open() Using codec: HEVC (High Efficiency Video Coding)
+2023-05-09 10:30:54.458 T:15132    info <general>: Creating video thread
+2023-05-09 10:30:54.459 T:2876     info <general>: running thread: video_thread
+2023-05-09 10:30:54.459 T:15132    info <general>: Opening stream: 1 source: 256
+2023-05-09 10:30:54.459 T:15132    info <general>: Finding audio codec for: 86018
+2023-05-09 10:30:54.460 T:15132    info <general>: CDVDAudioCodecFFmpeg::Open() Successful opened audio decoder aac
+2023-05-09 10:30:54.460 T:15132    info <general>: CVideoPlayerAudio::OpenStream: Allowing max Out-Of-Sync Value of 10 ms
+2023-05-09 10:30:54.460 T:15132    info <general>: Creating audio thread
+2023-05-09 10:30:54.460 T:9104     info <general>: running thread: CVideoPlayerAudio::Process()
+2023-05-09 10:30:54.460 T:15132    info <general>: Opening stream: 2 source: 256
+2023-05-09 10:30:54.460 T:15132    info <general>: CDVDSubtitlesLibass: Using libass version 1502000
+2023-05-09 10:30:54.460 T:15132    info <general>: CDVDSubtitlesLibass: Creating ASS library structure
+2023-05-09 10:30:54.461 T:15132    info <general>: CDVDSubtitlesLibass: Initializing ASS Renderer
+2023-05-09 10:30:54.463 T:15132    info <general>: CDVDSubtitlesLibass: Initializing ASS library font settings
+2023-05-09 10:30:54.477 T:15132    info <general>: CDVDSubtitlesLibass: Creating new ASS track
+2023-05-09 10:30:54.478 T:2876     info <general>: DXVA::CContext::CreateContext: creating discrete d3d11va device for decoding.
+2023-05-09 10:30:54.482 T:9104     info <general>: Creating audio stream (codec id: 86018, channels: 6, sample rate: 48000, no pass-through)
+2023-05-09 10:30:54.499 T:6916     info <general>: CActiveAESink::OpenSink - initialize sink
+2023-05-09 10:30:54.530 T:2876     info <general>: DXVA::CDecoder::Open: Total video memory available is 8181 MB (dedicated = 128 MB, shared = 8053 MB)
+2023-05-09 10:30:54.598 T:15000    info <general>: Loading skin file: C:\Program Files\Kodi\addons\skin.estuary\xml\DialogNumeric.xml, load type: LOAD_ON_GUI_INIT
+2023-05-09 10:30:54.623 T:15000    info <general>: DXVA::CProcessorHD::InitProcessor: supported deinterlace methods: blend:yes, bob:yes, adaptive:yes, mocomp:yes.
+2023-05-09 10:30:54.650 T:15000 warning <general>: CRendererHQ::CheckVideoParameters: chosen scaling method 1 is not supported by renderer
+2023-05-09 10:30:57.651 T:2876     info <general>: CDVDVideoCodecFFmpeg::CDropControl: calculated diff time: 41636
+2023-05-09 10:30:57.862 T:15000    info <general>: Loading skin file: VideoOSD.xml, load type: KEEP_IN_MEMORY
+2023-05-09 10:30:59.595 T:15000    info <general>: CVideoPlayer::CloseFile()
+2023-05-09 10:30:59.600 T:15000    info <general>: VideoPlayer: waiting for threads to exit
+2023-05-09 10:30:59.606 T:15132    info <general>: CVideoPlayer::OnExit()
+2023-05-09 10:30:59.606 T:15132    info <general>: Closing stream player 1
+2023-05-09 10:30:59.606 T:15132    info <general>: Waiting for audio thread to exit
+2023-05-09 10:30:59.628 T:9104     info <general>: thread end: CVideoPlayerAudio::OnExit()
+2023-05-09 10:30:59.628 T:15132    info <general>: Closing audio device
+2023-05-09 10:30:59.644 T:6916     info <general>: CActiveAESink::OpenSink - initialize sink
+2023-05-09 10:30:59.645 T:15132    info <general>: Deleting audio codec
+2023-05-09 10:30:59.645 T:15132    info <general>: Closing stream player 2
+2023-05-09 10:30:59.645 T:15132    info <general>: waiting for video thread to exit
+2023-05-09 10:30:59.683 T:2876  warning <general>: CVideoPlayerVideo::OutputPicture - timeout waiting for buffer
+2023-05-09 10:30:59.683 T:2876     info <general>: thread end: video_thread
+2023-05-09 10:30:59.688 T:15132    info <general>: deleting video codec
+2023-05-09 10:30:59.695 T:15132    info <general>: DXVA::CDecoder::Close: closing decoder.
+2023-05-09 10:30:59.695 T:15132    info <general>: DXVA: closing decoder context.
+2023-05-09 10:30:59.730 T:15132    info <general>: Closing stream player 3
+2023-05-09 10:30:59.734 T:15000    info <general>: VideoPlayer: finished waiting
+2023-05-09 10:30:59.734 T:15000    info <general>: CVideoPlayer::CloseFile()
+2023-05-09 10:30:59.734 T:15000    info <general>: VideoPlayer: waiting for threads to exit
+2023-05-09 10:30:59.734 T:15000    info <general>: VideoPlayer: finished waiting
+2023-05-09 10:30:59.737 T:476      info <general>: Deleting settings information for files C:\temp\Movies\Official Competition (2022)\Official Competition.mkv
+2023-05-09 10:31:04.846 T:15000    info <general>: VideoPlayer::OpenFile: C:\temp\Movies\Mad God (2021)\Mad God.mkv
+2023-05-09 10:31:04.847 T:14584    info <general>: Creating InputStream
+2023-05-09 10:31:04.858 T:14584    info <general>: Creating Demuxer
+2023-05-09 10:31:04.866 T:14584    info <general>: Opening stream: 0 source: 256
+2023-05-09 10:31:04.866 T:14584    info <general>: Creating video codec with codec id: 27
+2023-05-09 10:31:04.866 T:14584    info <general>: CDVDVideoCodecFFmpeg::Open() Using codec: H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10
+2023-05-09 10:31:04.866 T:14584    info <general>: Creating video thread
+2023-05-09 10:31:04.867 T:11288    info <general>: running thread: video_thread
+2023-05-09 10:31:04.867 T:14584    info <general>: Opening stream: 1 source: 256
+2023-05-09 10:31:04.867 T:14584    info <general>: Finding audio codec for: 86018
+2023-05-09 10:31:04.867 T:14584    info <general>: CDVDAudioCodecFFmpeg::Open() Successful opened audio decoder aac
+2023-05-09 10:31:04.868 T:14584    info <general>: CVideoPlayerAudio::OpenStream: Allowing max Out-Of-Sync Value of 10 ms
+2023-05-09 10:31:04.868 T:14584    info <general>: Creating audio thread
+2023-05-09 10:31:04.868 T:15112    info <general>: running thread: CVideoPlayerAudio::Process()
+2023-05-09 10:31:04.868 T:14584    info <general>: Opening stream: 2 source: 256
+2023-05-09 10:31:04.868 T:14584    info <general>: CDVDSubtitlesLibass: Using libass version 1502000
+2023-05-09 10:31:04.868 T:14584    info <general>: CDVDSubtitlesLibass: Creating ASS library structure
+2023-05-09 10:31:04.868 T:14584    info <general>: CDVDSubtitlesLibass: Initializing ASS Renderer
+2023-05-09 10:31:04.869 T:14584    info <general>: CDVDSubtitlesLibass: Initializing ASS library font settings
+2023-05-09 10:31:04.884 T:14584    info <general>: CDVDSubtitlesLibass: Creating new ASS track
+2023-05-09 10:31:04.884 T:11288    info <general>: DXVA::CContext::CreateContext: creating discrete d3d11va device for decoding.
+2023-05-09 10:31:04.889 T:15112    info <general>: Creating audio stream (codec id: 86018, channels: 2, sample rate: 48000, no pass-through)
+2023-05-09 10:31:04.915 T:6916     info <general>: CActiveAESink::OpenSink - initialize sink
+2023-05-09 10:31:04.937 T:11288    info <general>: DXVA::CDecoder::Open: Total video memory available is 8181 MB (dedicated = 128 MB, shared = 8053 MB)
+2023-05-09 10:31:05.001 T:15000    info <general>: Loading skin file: C:\Program Files\Kodi\addons\skin.estuary\xml\DialogNumeric.xml, load type: LOAD_ON_GUI_INIT
+2023-05-09 10:31:05.015 T:15000    info <general>: DXVA::CProcessorHD::InitProcessor: supported deinterlace methods: blend:yes, bob:yes, adaptive:yes, mocomp:yes.
+2023-05-09 10:31:05.038 T:15000 warning <general>: CRendererHQ::CheckVideoParameters: chosen scaling method 1 is not supported by renderer
+2023-05-09 10:31:09.498 T:15000 warning <general>: CGUIWindowManager - CGUIWindowManager::HandleAction - ignoring action 107, because topmost modal dialog closing animation is running
+2023-05-09 10:31:09.679 T:15000    info <general>: CVideoPlayer::CloseFile()
+2023-05-09 10:31:09.687 T:14584    info <general>: CVideoPlayer::OnExit()
+2023-05-09 10:31:09.687 T:15000    info <general>: VideoPlayer: waiting for threads to exit
+2023-05-09 10:31:09.687 T:14584    info <general>: Closing stream player 1
+2023-05-09 10:31:09.688 T:14584    info <general>: Waiting for audio thread to exit
+2023-05-09 10:31:09.688 T:15112    info <general>: thread end: CVideoPlayerAudio::OnExit()
+2023-05-09 10:31:09.688 T:14584    info <general>: Closing audio device
+2023-05-09 10:31:09.704 T:14584    info <general>: Deleting audio codec
+2023-05-09 10:31:09.706 T:14584    info <general>: Closing stream player 2
+2023-05-09 10:31:09.706 T:14584    info <general>: waiting for video thread to exit
+2023-05-09 10:31:09.735 T:6916     info <general>: CActiveAESink::OpenSink - initialize sink
+2023-05-09 10:31:09.753 T:11288    info <general>: thread end: video_thread
+2023-05-09 10:31:09.754 T:14584    info <general>: deleting video codec
+2023-05-09 10:31:09.761 T:14584    info <general>: DXVA::CDecoder::Close: closing decoder.
+2023-05-09 10:31:09.762 T:14584    info <general>: DXVA: closing decoder context.
+2023-05-09 10:31:09.786 T:14584    info <general>: Closing stream player 3
+2023-05-09 10:31:09.791 T:15000    info <general>: VideoPlayer: finished waiting
+2023-05-09 10:31:09.791 T:15000    info <general>: CVideoPlayer::CloseFile()
+2023-05-09 10:31:09.791 T:15000    info <general>: VideoPlayer: waiting for threads to exit
+2023-05-09 10:31:09.791 T:15000    info <general>: VideoPlayer: finished waiting
+2023-05-09 10:31:09.795 T:14416    info <general>: Deleting settings information for files C:\temp\Movies\Mad God (2021)\Mad God.mkv
+2023-05-09 10:31:09.803 T:15000 warning <general>: CGUIWindowManager - CGUIWindowManager::HandleAction - ignoring action 107, because topmost modal dialog closing animation is running
+2023-05-09 10:31:16.032 T:15000    info <general>: Skipped 1 duplicate messages..
+2023-05-09 10:31:16.031 T:15000   error <general>: Control 55 in window 10025 has been asked to focus, but it can't
+2023-05-09 10:31:16.153 T:15000    info <general>: Loading skin file: C:\Program Files\Kodi\addons\skin.estuary\xml\DialogNumeric.xml, load type: LOAD_ON_GUI_INIT
+2023-05-09 10:31:18.560 T:15000 warning <general>: CGUIWindowManager - CGUIWindowManager::HandleAction - ignoring action 107, because topmost modal dialog closing animation is running
+2023-05-09 10:31:39.139 T:15000    info <general>: Skipped 1 duplicate messages..
+2023-05-09 10:31:39.139 T:15000    info <general>: Loading skin file: DialogButtonMenu.xml, load type: KEEP_IN_MEMORY
+2023-05-09 10:31:40.172 T:15000    info <general>: Stopping the application...
+2023-05-09 10:31:40.172 T:15000    info <general>: Stopping player
+2023-05-09 10:31:40.172 T:15000    info <general>: Storing total System Uptime
+2023-05-09 10:31:40.173 T:15000    info <general>: Saving settings
+2023-05-09 10:31:40.180 T:15000    info <general>: Saving skin settings
+2023-05-09 10:31:40.182 T:15000    info <general>: Stopping all
+2023-05-09 10:31:40.183 T:15000    info <general>: ES: Stopping event server
+2023-05-09 10:31:40.183 T:15000    info <general>: [WS-Discovery]: terminating
+2023-05-09 10:31:40.273 T:4980     info <general>: ES: UDP Event server stopped
+2023-05-09 10:31:45.298 T:15000   error <general>: CPythonInvoker(2, C:\Users\admin\AppData\Roaming\Kodi\addons\script.pinsentry\service.py): script didn't stop in 5 seconds - let's kill it
+2023-05-09 10:31:45.298 T:15000    info <general>: CServiceAddonManager: failed to stop service.xbmc.versioncheck (may have ended)
+2023-05-09 10:31:45.458 T:15000    info <general>: Application stopped
+2023-05-09 10:31:46.168 T:15000    info <general>: AddOnLog: peripheral.joystick: Disabling joystick interface "directinput"
+2023-05-09 10:31:46.168 T:15000    info <general>: AddOnLog: peripheral.joystick: Disabling joystick interface "xinput"
+2023-05-09 10:31:46.168 T:15000    info <general>: ADDON: Dll Destroyed - Joystick Support
+2023-05-09 10:31:46.169 T:15000    info <general>: unload skin
+2023-05-09 10:31:46.187 T:15000 warning <general>: CGUITextureManager::Cleanup: Having to cleanup texture lists/focus.png
+2023-05-09 10:31:46.215 T:15000    info <general>: Unloaded skin
+2023-05-09 10:31:46.428 T:15000    info <general>: unload sections
+2023-05-09 10:31:48.484 T:15000    info <general>: Exiting the application...
